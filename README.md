@@ -10,10 +10,12 @@ var aio = require('asterisk.io'),
 
 
 ami = aio.ami(
-    '192.168.1.31',     // this is my virtual machine where I have Asterisk PBX installed
+    '192.168.1.31',     // this is my virtual machine where I have
+                        // Asterisk PBX installed
                         // you should change with yours
 
-    5038,               // the default port number setup in "/etc/asterisk/manager.conf"
+    5038,               // the default port number setup
+                        // in "/etc/asterisk/manager.conf"
                         // in "general" section
 
     'admin',            // manager username
@@ -98,4 +100,4 @@ IMPORTANT: In the second parameter (key/value pairs) **don't put** ActionID key,
 
 - [ARI](https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ARI)
 - [AGI](https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+AGI+Commands)
-- UI
+- UI: real time user interface
