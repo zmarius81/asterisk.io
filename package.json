@@ -1,7 +1,7 @@
 {
     "name": "asterisk.io",
     "version": "0.0.1",
-    "description": "node.js asterisk pbx realtime communication",
+    "description": "node.js asterisk pbx io",
     "keywords": [
         "asterisk",
         "pbx",
