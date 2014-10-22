@@ -1,0 +1,24 @@
+{
+    "name": "asterisk.io",
+    "version": "0.0.1",
+    "description": "node.js asterisk pbx realtime communication",
+    "keywords": [
+        "asterisk",
+        "pbx",
+        "utilities",
+        "events",
+        "ami",
+        "agi",
+        "ari"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/zmarius81/asterisk.io"
+    },
+    "contributors": [
+        {
+            "name": "Zugravu Eugen Marius",
+            "email": "marius@zugravu.com"
+        }
+    ]
+}
