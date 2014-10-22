@@ -5,7 +5,7 @@ node.js asterisk pbx io
 ## How to use
 
 ```javascript
-var aio = require('../'),
+var aio = require('asterisk.io'),
     ami = null;
 
 
