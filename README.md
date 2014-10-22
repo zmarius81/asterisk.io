@@ -2,6 +2,12 @@
 
 node.js asterisk pbx io
 
+## Install
+
+```
+npm install asterisk.io
+```
+
 ## How to use
 
 ```javascript
