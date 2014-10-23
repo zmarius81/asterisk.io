@@ -91,6 +91,25 @@ IMPORTANT: The list of actions depends of your asterisk version installed.
 Send an action and get the response in a callback function.
 
 ```javascript
+ami.action(
+            'Originate',
+            {
+                Channel: 'SIP/101',
+                Context: 'default',
+                Priority: 1,
+                Async: 'false',     // set Async to 'false' to
+                                    // get response in the callback function
+                Exten: '102'
+            },
+            function(data){
+                if(data.Response == 'Error'){
+                    console.log('Originate', data.Message);
+                    return;
+                }
+                console.log('Originate', data.Message);
+            }
+);
+
 ami.action('CoreSettings', {}, function(data){
     console.log('CoreSettings', data);
 });
