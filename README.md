@@ -6,13 +6,13 @@ node.js asterisk pbx io
 
 [2. How to use](#2-how-to-use)
 
-[2.1 AMI](#2-1-ami)
+[2.1 AMI](#21-ami)
 
-[2.1.1 Actions](#2-1-1-actions)
+[2.1.1 Actions](#211-actions)
 
-[2.1.2 Events](#2-1-2-events)
+[2.1.2 Events](#212-events)
 
-[2.2 AGI](#2-2-agi)
+[2.2 AGI](#22-agi)
 
 [3. TODO](#3-todo)
 
