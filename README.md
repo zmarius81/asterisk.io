@@ -163,7 +163,9 @@ Documetation for [agi commands](https://wiki.asterisk.org/wiki/display/AST/Aster
 var aio = require('../'),
     agi = null;
 
-agi = aio.agi(14000); // port and host, if host is missing then '0.0.0.0' is used as host
+agi = aio.agi(14000); // port and host
+                      // if host is missing then
+                      // '0.0.0.0' is used as host
 
 agi.on('error', function(err){
     throw err;
@@ -205,10 +207,10 @@ agi.on('connection', function(agiHandler){
         agiHandler.command('Say Date "1414330073" ""', function(code, result, data){
 
             // say time with "unix_timestamp" and "" as escape digits
-            agiHandler.command('Say Time "1414330073" ""', function(code, result, data){
+            agiHandler.command('Say Time "1414330073" ""', function(){
 
-                // hangup the channel, this will raise hangup and close event
-                agiHandler.command('HangUp', function(code, result, data){
+                agiHandler.command('HangUp', function(){
+                    // hangup the channel, this will raise hangup and close event
                 });
 
             });
