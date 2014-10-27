@@ -160,7 +160,7 @@ ami.on('eventHangup', function(data){
 Documetation for [agi commands](https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+AGI+Commands) on [asterisk wiki](https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+Documentation) page.
 
 ```javascript
-var aio = require('../'),
+var aio = require('asterisk.io'),
     agi = null;
 
 agi = aio.agi(14000); // port and host
@@ -222,7 +222,8 @@ agi.on('connection', function(agiHandler){
 });
 ```
 
-## TODO
+## 3. TODO
 
 - [ARI](https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ARI)
+- AGI - IVR (Interactive Voice Response) from JSON object
 - UI: real time user interface
